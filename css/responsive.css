@@ -1,0 +1,1639 @@
+@media (min-width: 320px) and (max-width: 576px){
+
+
+    /* =========================================
+             home page start
+       ========================================= */
+
+    /* navbar start */
+    nav{
+        z-index: 99999; 
+    }
+nav .logo{
+ width: 100px !important; 
+}
+
+
+
+nav ul{
+  background: #e5e5e5;
+  padding-bottom: 10px;
+
+  
+  text-align: center;
+ 
+}
+.navbar-nav .dropdown-menu{
+    width: 100%;
+    position: none;
+    text-align: center;
+}
+nav ul li a{
+    margin: 0;
+}
+
+nav .nav_bar-btn{
+   margin: auto;
+}
+
+nav ul li a::before{
+    display: none;
+}
+.collapse.show{
+    z-index: 99999;
+}
+nav .out{
+    outline: 0;
+    
+}
+  /* navbar start */
+
+    /* banner start */
+
+
+    #banner-part{
+        padding-top: 160px;
+        padding-bottom: 30px;
+        text-align: center;
+       
+    }
+   
+    #banner-part .left-part h1{
+    
+        font-size: 30px;
+      line-height: 35px;
+      margin-top: auto
+    }
+
+    #banner-part .left-part p{
+width: auto;
+font-size: 14px;
+
+    }
+
+
+    #banner-part .left-part h2{
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    #banner-part .left-part .box .left::after{
+        top: 35%;
+        right: 42% ;
+    }
+
+
+    #banner-part .left-part .box{
+       flex-direction: column;
+    }
+
+    #banner-part .left-part .box .left input{
+        width: 260px;
+    }
+    #banner-part .left-part .box .right .banner-btn{
+        margin-top: 30px;
+        margin-left: 0;
+    }
+
+    #banner-part .right-part {
+        width: auto;
+        height: auto;
+       
+        margin: auto;
+    }
+    #banner-part .right-part img {
+        margin-top: 50px;
+    }
+
+    #banner-part .banner-bottom {
+        margin-top: 50px;
+        font-size: 14px;
+    }
+    #banner-part .banner-bottom span{
+        font-size: 13px;
+    }
+    /* banner end */
+    /* step start */
+
+    #step-part{
+        padding-top: 50px;
+        padding-bottom: 60px;
+        text-align: center;
+    }
+    #step-part .head1{
+        padding-left: 20px;
+        width: 243px;
+        font-size: 30px;
+        line-height: 35px;
+        width: auto;
+    }
+    #step-part .head2{
+        padding-left: 20px;
+        font-size: 30px;
+        line-height: 35px;
+    }
+    #step-part .right p{
+        margin-left: 0;
+        margin-top: 30px;
+        width: auto;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    #step-part .box{
+        margin-top: 100px;
+    }
+    #step-part .box .dot1 {
+      
+        top: 118% !important;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    #step-part .box .dot2 {
+      
+        top: 120% !important;
+        left: 120px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    /* step end */
+    /* fastest start */
+    #fastest-part {
+        text-align: center;
+    }
+    #fastest-part .main{
+        background: none;
+        padding: 30px 0;
+        
+    }
+
+    #fastest-part img{
+       display: block;
+        width: 100%;
+        margin-top: 30px;
+    }
+  
+    #fastest-part h3{
+
+        font-size: 30px;
+        line-height: 35px;
+    }
+    #fastest-part p{
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #fastest-part .button{
+        flex-direction: column;
+    }
+    #fastest-part .fastes-btn{
+        font-size: 16px;
+    }
+    #fastest-part .fastest-link{
+        font-size: 16px;
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    /* fastest end */
+    /* fotter start */
+    #footer-part {
+        padding: 50px 0;
+        text-align: center;
+    }
+    #footer-part .one{
+      
+        text-align: center;
+    }
+    #footer-part .main-two{
+        flex-direction: column;
+    }
+    #footer-part .two {
+        padding-left: 0px;
+        margin-top: 50px;
+    }
+    #footer-part .three {
+        padding-left: 0px;
+        margin-top: -20px;
+    }
+    #footer-part .four{
+        padding-left: 0;
+    }
+    #footer-part .five{
+        margin-top: 20px;
+    }
+    #footer-part .social ul{
+        margin-top: 40px;
+        text-align: center;
+    }
+    #footer-part .terms ul {
+        margin-top: 30px;
+        text-align: center;
+    }
+    #footer-part .terms ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    /* fotter end */
+   
+
+  /* =========================================
+             home page end
+       ========================================= */
+
+
+
+
+         /* =========================================
+                 about page start
+           ========================================= */
+
+
+/* works part start */
+
+#works-part{
+    padding-top: 160px;
+    padding-bottom: 60px;
+    
+   
+}
+#works-part h1{
+    padding-left: 50px !important;
+    font-size: 30px;
+ 
+}
+
+#works-part .box{
+    text-align: center;
+    padding-left: 0;
+    margin-top: 70px;
+}
+
+
+/* works part end */
+/* what part start */
+#what-part{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+#what-part .title h1{
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+#what-part .photo{
+    width: auto;
+    height: auto;
+}
+#what-part .text{
+    text-align: center;
+}
+#what-part .text h4{
+    line-height: 45px;
+    margin-top: 30px;
+}
+#what-part .text h4{
+ font-size: 28px;
+}
+#what-part .text ul li{
+    font-size: 18px;
+}
+#what-part .slider ul li button{
+    left: 45%;
+}
+#what-part .next{
+    left:60%    ;
+}
+/* what part end */
+/* world part start */
+#world-part{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#world-part .title h1{
+
+    font-size: 30px;
+    line-height: 50px;
+    width: auto;
+}
+#world-part .button{
+
+    margin-bottom: 80px;
+}
+#world-part .button ul li{
+    padding: 15px 30px;
+    margin-right: 10px;
+}
+#world-part .button ul .no{
+   margin-right: 0;
+}
+#world-part .mixtab{
+    flex-direction: column;
+}
+#world-part .mixtab .box{
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 60px;
+}
+
+#world-part .box .photo{
+    width: auto;
+}
+/* world part end */
+/* form part start */
+#form-part{
+  
+   padding: 50px 0;
+}
+
+#form-part h1{
+    font-size: 28px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+#form-part h2{
+    font-size: 28px;
+    padding-left: 20px;
+}
+#form-part .text{
+    text-align: center;
+}
+#form-part p{
+    width: auto;
+}
+#form-part h3{
+    line-height: 45px;
+}
+#form-part .left{
+    text-align: center;
+}
+#form-part .left ul li input{
+    width: 100%;
+    padding: 15px 10px;
+}
+
+#form-part .left .btn{
+    margin-bottom: 30px;
+    margin-right: 0;
+}
+
+#form-part .photo{
+
+
+
+
+    width: auto;
+    height: auto;
+}
+/* form part end */
+
+             /* =========================================
+                 about page end
+           ========================================= */
+
+
+            /* =========================================
+                 discover page start
+           ========================================= */
+
+
+/* blog part start */
+#blog-part{
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+#blog-part h2{
+    font-size: 30px;
+    line-height: 45px;
+}
+#blog-part p{
+    font-size: 17px;
+    width: auto;
+}
+#blog-part ul li{
+
+margin-right: 0;
+margin-top: 30px;
+
+
+}
+#blog-part .mixtab{
+    flex-direction: column;
+}
+#blog-part .box{
+    width: auto;
+    margin-top: 60px;
+}
+#blog-part .box2{
+
+
+
+    margin-left: 0;
+    margin-right: 0;
+}
+#blog-part .box .photo{
+    width: auto;
+    height: auto;
+}
+#blog-part .box h5{
+    font-size: 20px;
+    width: auto;
+}
+#blog-part .box p{
+    width: auto;
+}
+
+/* blog part end */
+
+
+             /* =========================================
+                 discover page end
+           ========================================= */
+
+
+
+           /* =========================================
+                 discover inner page sart
+           ========================================= */
+
+
+
+           /* blog part start */
+
+
+           #blog-inner .main h5{
+               font-size: 30px;
+           }
+           #blog-inner .main .photo{
+               width: auto;
+               
+           }
+
+           #blog-inner .main p{
+               width: auto;
+           }
+
+           /* blog part end */
+
+             /* =========================================
+                 discover inner page end
+           ========================================= */
+
+               /* =========================================
+                 quize  page start
+           ========================================= */
+
+
+           #quize-part{
+               padding-top: 170px;
+           }
+           #quize-part h1{
+               font-size: 28px;
+           }
+           #quize-part p{
+               font-size: 20px;
+               line-height: 35px;
+               margin-top: 40px;
+           }
+
+           #quize-part span{
+               margin-top: 30px;
+           }
+           #quize-part .nexdot ul{
+               margin-top: 40px;
+           }
+           #quize-part .nexdot ul .dot{
+               margin-left: 20px;
+           }
+
+
+
+
+           
+               /* =========================================
+                 quize  page end
+           ========================================= */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+       @media (min-width: 576px) and (max-width: 767px){
+
+
+        /* =========================================
+                 home page start
+           ========================================= */
+    
+        /* navbar start */
+    nav .logo{
+     width: 100px !important; 
+    }
+    
+    
+    
+    nav ul{
+      background: #e5e5e5;
+      padding-bottom: 10px;
+    
+      
+      text-align: center;
+     
+    }
+    .navbar-nav .dropdown-menu{
+        width: 100%;
+        position: none;
+        text-align: center;
+    }
+    nav ul li a{
+        margin: 0;
+    }
+    
+    
+    
+    nav ul li a::before{
+        display: none;
+    }
+    .collapse.show{
+        z-index: 99999;
+    }
+    nav .out{
+        outline: 0;
+        
+    }
+    nav .nav_bar-btn{
+        margin: auto;
+     }
+      /* navbar start */
+    
+        /* banner start */
+    
+    
+        #banner-part{
+            padding-top: 160px;
+            padding-bottom: 30px;
+            text-align: center;
+           
+        }
+       
+        #banner-part .left-part h1{
+        
+            font-size: 40px;
+          line-height: 50px;
+          margin-top: auto
+        }
+    
+        #banner-part .left-part p{
+    width: auto;
+    font-size: 20px;
+    
+        }
+    
+    
+        #banner-part .left-part h2{
+            font-size: 20px;
+            margin-top: 15px;
+        }
+        #banner-part .left-part .box .left::after{
+            top: 35%;
+            right: 45% ;
+        }
+    
+    
+        #banner-part .left-part .box{
+           flex-direction: column;
+        }
+    
+        #banner-part .left-part .box .left input{
+            width: 280px;
+        }
+        #banner-part .left-part .box .right .banner-btn{
+            margin-top: 30px;
+            margin-left: 0;
+        }
+    
+        #banner-part .right-part {
+            width: auto;
+            height: auto;
+           
+            margin: auto;
+        }
+        #banner-part .right-part img {
+            margin-top: 50px;
+        }
+    
+        #banner-part .banner-bottom {
+            margin-top: 50px;
+            font-size: 18px;
+        }
+        #banner-part .banner-bottom span{
+            font-size: 18px;
+        }
+        /* banner end */
+        /* step start */
+    
+        #step-part{
+            padding-top: 50px;
+            padding-bottom: 60px;
+            text-align: center;
+        }
+        #step-part .head1{
+            padding-left: 20px;
+            width: 243px;
+            font-size: 40px;
+            line-height: 35px;
+            width: auto;
+        }
+        #step-part .head2{
+            padding-left: 20px;
+            font-size: 40px;
+            line-height: 60px;
+        }
+        #step-part .right p{
+            margin-left: 0;
+            margin-top: 30px;
+            width: auto;
+            font-size: 20px;
+            line-height: 30px;
+        }
+    
+        #step-part .box{
+            margin-top: 100px;
+        }
+        #step-part .box .dot1 {
+          
+            top: 118% !important;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        #step-part .box .dot2 {
+          
+            top: 120% !important;
+            left: 120px;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
+        /* step end */
+        /* fastest start */
+        #fastest-part {
+            text-align: center;
+        }
+        #fastest-part .main{
+            background: none;
+            padding: 30px 0;
+            
+        }
+    
+        #fastest-part img{
+           display: block;
+            width: 100%;
+            margin-top: 30px;
+        }
+      
+        #fastest-part h3{
+    
+            font-size: 40px;
+            line-height: 50px;
+        }
+        #fastest-part p{
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+        #fastest-part .button{
+            flex-direction: column;
+        }
+        #fastest-part .fastes-btn{
+            font-size: 18px;
+        }
+        #fastest-part .fastest-link{
+            font-size: 18px;
+            margin-left: 0;
+            margin-top: 30px;
+        }
+        /* fastest end */
+        /* fotter start */
+        #footer-part {
+            padding: 50px 0;
+            text-align: center;
+        }
+        #footer-part .one{
+          
+            text-align: center;
+        }
+        #footer-part .main-two{
+            flex-direction: column;
+        }
+        #footer-part .two {
+            padding-left: 0px;
+            margin-top: 50px;
+        }
+        #footer-part .three {
+            padding-left: 0px;
+            margin-top: -20px;
+        }
+        #footer-part .four{
+            padding-left: 0;
+        }
+        #footer-part .five{
+            margin-top: 20px;
+        }
+        #footer-part .social ul{
+            margin-top: 40px;
+            text-align: center;
+        }
+        #footer-part .terms ul {
+            margin-top: 30px;
+            text-align: center;
+        }
+        #footer-part .terms ul li {
+            display: inline-block;
+            margin-right: 20px;
+        }
+        /* fotter end */
+           /* =========================================
+                 home page end
+           ========================================= */
+
+            /* =========================================
+                 about page start
+           ========================================= */
+
+
+/* works part start */
+
+#works-part{
+    padding-top: 160px;
+    padding-bottom: 60px;
+    
+   
+}
+#works-part h1{
+    padding-left: 100px !important;
+    font-size: 30px;
+ 
+}
+
+#works-part .box{
+    text-align: center;
+    padding-left: 0;
+    margin-top: 70px;
+}
+
+
+/* works part end */
+/* what part start */
+#what-part{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+#what-part .title h1{
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+#what-part .photo{
+    width: auto;
+    height: auto;
+}
+#what-part .text{
+    text-align: center;
+}
+#what-part .text h4{
+    line-height: 45px;
+    margin-top: 30px;
+}
+#what-part .text h4{
+ font-size: 28px;
+}
+#what-part .text ul li{
+    font-size: 18px;
+}
+#what-part .next{
+    left:62%    ;
+}
+/* what part end */
+/* world part start */
+#world-part{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#world-part .title h1{
+
+    font-size: 30px;
+    line-height: 50px;
+    width: auto;
+}
+#world-part .button{
+
+    margin-bottom: 80px;
+}
+#world-part .button ul li{
+    padding: 15px 30px;
+    margin-right: 10px;
+}
+#world-part .button ul .no{
+   margin-right: 0;
+}
+#world-part .mixtab{
+    flex-direction: column;
+}
+#world-part .mixtab .box{
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 60px;
+}
+
+#world-part .box .photo{
+    width: auto;
+}
+/* world part end */
+/* form part start */
+#form-part{
+ 
+   padding: 50px 0;
+}
+
+#form-part h1{
+    font-size: 40px;
+    padding-left: 20px ;
+    margin-bottom: 10px;
+}
+#form-part h2{
+    font-size: 40px;
+    padding-left: 30px;
+}
+
+#form-part p{
+    width: auto;
+}
+#form-part h3{
+    line-height: 45px;
+}
+#form-part .text{
+    text-align: center;
+}
+#form-part .left{
+    text-align: center;
+}
+
+#form-part .left ul li input{
+    width: 100%;
+    padding: 15px 10px;
+}
+
+#form-part .left .btn{
+    margin-bottom: 30px;
+    margin-right: 10px;
+   
+}
+
+#form-part .photo{
+
+
+
+
+    width: auto;
+    height: auto;
+}
+/* form part end */
+
+             /* =========================================
+                 about page end
+           ========================================= */
+
+             /* =========================================
+                 discover page start
+           ========================================= */
+
+
+/* blog part start */
+#blog-part{
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+
+#blog-part p{
+  
+    width: auto;
+}
+#blog-part ul li{
+
+margin-right: 10px;
+margin-top: 30px;
+
+
+}
+#blog-part .mixtab{
+    flex-direction: column;
+}
+#blog-part .box{
+    width: auto;
+    margin-top: 60px;
+}
+#blog-part .box2{
+
+
+
+    margin-left: 0;
+    margin-right: 0;
+}
+#blog-part .box .photo{
+    width: auto;
+    height: auto;
+}
+#blog-part .box h5{
+ 
+    width: auto;
+}
+#blog-part .box p{
+    width: auto;
+}
+
+/* blog part end */
+
+
+             /* =========================================
+                 discover page end
+           ========================================= */
+
+
+           
+           /* =========================================
+                 discover inner page sart
+           ========================================= */
+
+
+
+           /* blog part start */
+
+
+           #blog-inner .main h5{
+            font-size: 30px;
+        }
+        #blog-inner .main .photo{
+            width: auto;
+            
+        }
+
+        #blog-inner .main p{
+            width: auto;
+        }
+
+        /* blog part end */
+
+          /* =========================================
+              discover inner page end
+        ========================================= */
+        
+               /* =========================================
+                 quize  page start
+           ========================================= */
+
+
+           #quize-part{
+            padding-top: 170px;
+        }
+        #quize-part h1{
+            font-size: 28px;
+        }
+        #quize-part p{
+            font-size: 20px;
+            line-height: 35px;
+            margin-top: 40px;
+        }
+
+        #quize-part span{
+            margin-top: 30px;
+        }
+        #quize-part .nexdot ul{
+            margin-top: 40px;
+        }
+        #quize-part .nexdot ul .dot{
+            margin-left: 30px;
+        }
+
+
+
+
+        
+            /* =========================================
+              quize  page end
+        ========================================= */
+      
+       
+    }
+    
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+           @media (min-width: 767px) and (max-width: 992px){
+
+
+            /* =========================================
+                     home page start
+               ========================================= */
+        
+            /* navbar start */
+        nav .logo{
+         width: 100px !important; 
+        }
+        
+        
+        
+        nav ul{
+          background: #e5e5e5;
+          padding-bottom: 10px;
+        
+          
+          text-align: center;
+         
+        }
+        .navbar-nav .dropdown-menu{
+            width: 100%;
+            position: none;
+            text-align: center;
+        }
+        nav ul li a{
+            margin: 0;
+        }
+        
+        nav .nav_bar-btn{
+            margin: auto;
+         }
+        nav ul li a::before{
+            display: none;
+        }
+        .collapse.show{
+            z-index: 99999;
+        }
+        nav .out{
+            outline: 0;
+            
+        }
+          /* navbar start */
+        
+            /* banner start */
+        
+        
+            #banner-part{
+                padding-top: 160px;
+                padding-bottom: 30px;
+                text-align: center;
+               
+            }
+           
+            #banner-part .left-part h1{
+            
+                font-size: 40px;
+              line-height: 50px;
+              margin-top: auto
+            }
+        
+            #banner-part .left-part p{
+        width: auto;
+        font-size: 20px;
+        
+            }
+        
+        
+            #banner-part .left-part h2{
+                font-size: 20px;
+                margin-top: 15px;
+            }
+            #banner-part .left-part .box .left::after{
+                top: 35%;
+                right: 45% ;
+            }
+        
+        
+            #banner-part .left-part .box{
+               flex-direction: column;
+            }
+        
+            #banner-part .left-part .box .left input{
+                width: 280px;
+            }
+            #banner-part .left-part .box .right .banner-btn{
+                margin-top: 30px;
+                margin-left: 0;
+            }
+        
+            #banner-part .right-part {
+                width: auto;
+                height: auto;
+               
+                margin: auto;
+            }
+            #banner-part .right-part img {
+                margin-top: 50px;
+            }
+        
+            #banner-part .banner-bottom {
+                margin-top: 50px;
+                font-size: 18px;
+            }
+            #banner-part .banner-bottom span{
+                font-size: 18px;
+            }
+            /* banner end */
+            /* step start */
+        
+            #step-part{
+                padding-top: 50px;
+                padding-bottom: 60px;
+                text-align: center;
+            }
+            #step-part .head1{
+                padding-left: 20px;
+                width: 243px;
+                font-size: 40px;
+                line-height: 35px;
+                width: auto;
+            }
+            #step-part .head2{
+                padding-left: 20px;
+                font-size: 40px;
+                line-height: 60px;
+            }
+            #step-part .right p{
+                margin-left: 0;
+                margin-top: 30px;
+                width: auto;
+                font-size: 20px;
+                line-height: 30px;
+            }
+        
+            #step-part .box{
+                margin-top: 100px;
+            }
+            #step-part .box .dot1 {
+              
+                top: 118% !important;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            #step-part .box .dot2 {
+              
+                top: 120% !important;
+                left: 120px;
+                left: 50%;
+                transform: translate(-50%,-50%);
+            }
+            /* step end */
+            /* fastest start */
+            #fastest-part {
+                text-align: center;
+            }
+            #fastest-part .main{
+                background: none;
+                padding: 30px 0;
+                
+            }
+        
+            #fastest-part img{
+               display: block;
+                width: 100%;
+                margin-top: 30px;
+            }
+          
+            #fastest-part h3{
+        
+                font-size: 40px;
+                line-height: 50px;
+            }
+            #fastest-part p{
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+            #fastest-part .button{
+                flex-direction: column;
+            }
+            #fastest-part .fastes-btn{
+                font-size: 18px;
+            }
+            #fastest-part .fastest-link{
+                font-size: 18px;
+                margin-left: 0;
+                margin-top: 30px;
+            }
+            /* fastest end */
+            /* fotter start */
+            #footer-part {
+                padding: 50px 0;
+                text-align: center;
+            }
+            #footer-part .one{
+              
+                text-align: center;
+            }
+            #footer-part .main-two{
+                flex-direction: column;
+            }
+            #footer-part .two {
+                padding-left: 0px;
+                margin-top: 50px;
+            }
+            #footer-part .three {
+                padding-left: 0px;
+                margin-top: -20px;
+            }
+            #footer-part .four{
+                padding-left: 0;
+            }
+            #footer-part .five{
+                margin-top: 20px;
+            }
+            #footer-part .social ul{
+                margin-top: 40px;
+                text-align: center;
+            }
+            #footer-part .terms ul {
+                margin-top: 30px;
+                text-align: center;
+            }
+            #footer-part .terms ul li {
+                display: inline-block;
+                margin-right: 20px;
+            }
+            /* fotter end */
+                /* =========================================
+                     home page end
+               ========================================= */
+               
+            /* =========================================
+                 about page start
+           ========================================= */
+
+
+/* works part start */
+
+#works-part{
+    padding-top: 160px;
+    padding-bottom: 60px;
+    
+   
+}
+#works-part h1{
+    padding-left: 100px !important;
+   
+ 
+}
+
+#works-part .box{
+    text-align: center;
+    padding-left: 0;
+    margin-top: 100px;
+}
+
+
+/* works part end */
+/* what part start */
+#what-part{
+    padding-top: 60px;
+    padding-bottom: 120px;
+}
+#what-part .title h1{
+   
+    margin-bottom: 100px;
+}
+#what-part .photo{
+    width: auto;
+    height: auto;
+}
+#what-part .text{
+    text-align: center;
+}
+#what-part .text h4{
+    line-height: 45px;
+    margin-top: 30px;
+}
+
+
+#what-part .next{
+    left:56%    ;
+}
+/* what part end */
+/* world part start */
+#world-part{
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+#world-part .title h1{
+
+   
+    width: auto;
+}
+#world-part .button{
+
+    margin-bottom: 80px;
+}
+#world-part .button ul li{
+    padding: 15px 30px;
+    margin-right: 10px;
+}
+#world-part .button ul .no{
+   margin-right: 0;
+}
+#world-part .mixtab{
+    flex-direction: column;
+}
+#world-part .mixtab .box{
+    width: auto;
+    margin-right: 0;
+    margin-bottom: 60px;
+}
+
+#world-part .box .photo{
+    width: auto;
+}
+/* world part end */
+/* form part start */
+#form-part{
+ 
+   padding: 50px 0;
+}
+
+#form-part h1{
+    
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+#form-part h2{
+
+    padding-left: 30px;
+}
+
+#form-part p{
+    width: auto;
+}
+#form-part h3{
+    line-height: 45px;
+}
+#form-part .text{
+    text-align: center;
+}
+#form-part .left{
+    text-align: center;
+}
+#form-part .left ul li input{
+    width: 100%;
+    padding: 15px 10px;
+}
+
+#form-part .left .btn{
+    margin-bottom: 30px;
+    margin-right: 20px;
+   
+}
+
+#form-part .photo{
+
+
+
+
+    width: auto;
+    height: auto;
+}
+/* form part end */
+
+             /* =========================================
+                 about page end
+           ========================================= */
+
+
+           
+             /* =========================================
+                 discover page start
+           ========================================= */
+
+
+/* blog part start */
+#blog-part{
+    text-align: center;
+    padding-top: 160px;
+    padding-bottom: 100px;
+}
+
+
+#blog-part p{
+  
+    width: auto;
+}
+#blog-part ul li{
+
+margin-right: 10px;
+margin-top: 30px;
+
+
+}
+#blog-part .mixtab{
+    flex-direction: column;
+}
+#blog-part .box{
+    width: auto;
+    margin-top: 60px;
+}
+#blog-part .box2{
+
+
+
+    margin-left: 0;
+    margin-right: 0;
+}
+#blog-part .box .photo{
+    width: auto;
+    height: auto;
+}
+#blog-part .box h5{
+ 
+    width: auto;
+}
+#blog-part .box p{
+    width: auto;
+}
+
+/* blog part end */
+
+
+             /* =========================================
+                 discover page end
+           ========================================= */
+
+
+            /* =========================================
+                 discover inner page sart
+           ========================================= */
+
+
+
+           /* blog part start */
+
+
+           #blog-inner .main h5{
+                 line-height: 50px;
+        }
+        #blog-inner .main .photo{
+            width: auto;
+            
+        }
+
+        #blog-inner .main p{
+            width: auto;
+        }
+
+        /* blog part end */
+
+          /* =========================================
+              discover inner page end
+        ========================================= */
+
+                 /* =========================================
+                 quize  page start
+           ========================================= */
+
+
+       
+        
+      
+
+       
+        
+        #quize-part .nexdot ul .dot{
+            margin-left: 40px;
+        }
+
+
+
+
+        
+            /* =========================================
+              quize  page end
+        ========================================= */
+           
+        }
+        
+        @media (min-width: 993px) and (max-width: 1199px){
+       
+         /* navbar start */
+         nav ul li a{
+
+       margin-right: 25px;
+         }
+         /* navbar end */
+
+/* footer start */
+#footer-part .social ul li{
+    margin-right: 8px;
+}
+/* footer end */
+
+#step-part .head1{
+
+
+    padding-left: 40px;
+}
+
+#step-part .head2{
+    padding-left: 50px;
+}
+
+#step-part .right p{
+    width: 500px;
+    margin-left: 0;
+}
+#fastest-part .main{
+    padding: 98px 0;
+}
+#fastest-part h3{
+    width: 400px;
+}
+#fastest-part .button{
+
+
+    flex-direction: column;
+}
+#fastest-part .fastest-link{
+
+
+    margin-top: 30px;
+    margin-left: 0;
+}
+#form-part h1{
+    padding-left: 50px;
+}
+#form-part h2{
+    padding-left: 50px;
+}
+#blog-part ul li{
+    margin-right: 10px;
+}
+        }
+
+
+
+
+
+
+
+
+
